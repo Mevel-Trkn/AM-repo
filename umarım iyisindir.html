@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Umarım İyisindir</title>
+    <script>
+        function ekranaYaz(mesaj) {
+            var p = document.createElement("p");
+            p.textContent = mesaj;
+            document.body.appendChild(p);
+        }
+        setTimeout(function() {
+            ekranaYaz("Selam!!!");
+        }, 0);
+        setTimeout(function() {
+            ekranaYaz("Nasılsın?");
+        }, 1000);
+        setTimeout(function() {
+            ekranaYaz("Umarım iyisindir.");
+        }, 2000);
+        setTimeout(function() {
+            ekranaYaz("Ben AMasistant'ın yaratıcısı Ege.");
+        }, 3000); 
+        setTimeout(function() {
+            ekranaYaz("Unutma,AMasistant her zaman seninle!");
+        }, 4000);
+    </script>
+</head>
+<body>
+</body>
+</html>
